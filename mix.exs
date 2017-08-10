@@ -28,7 +28,7 @@ defmodule Geo.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.1", optional: true },
-      {:poison, "~> 3.0", optional: true},
+      {:poison, "~> 2.2 or ~> 3.0", optional: true},
       {:ex_doc, "~> 0.14", only: :dev}
     ]
   end
